@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(100, 100, 100);
+    color: black;
+    font: normal 20pt Arial;
+    margin: 0;
+}
+
+div#navegacao {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    overflow: hidden;
+    line-height: 60px;
+}
+
+div#navegacao a {
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 10px;
+    font-size: 25px;
+    float: left;
+    color: white;
+}
+
+div#navegacao a:hover {
+    background-color: #dbdbdb;
+    color: black;
+}
+
+div#navegacao a.ativo {
+    background-color: #130058;
+    color: white;
+}
+
+div#titulo {
+    text-align: center;
+    color: #130058;
+}
+
+div#corpo {
+    background-color: rgb(255, 255, 255);
+    width: 96%;
+    line-height: 100px;
+    text-align: center;
+}
